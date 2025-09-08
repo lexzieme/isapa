@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Love Letter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Great Vibes', cursive;
+      background: linear-gradient(to right, #d8b4f8, #c084fc);
+      text-align: center;
+      padding: 50px;
+      color: #4b0082;
+    }
+
+    #letter {
+      display: none;
+      margin-top: 30px;
+      padding: 30px;
+      border: 2px solid #7e22ce;
+      background-color: #f3e8ff;
+      border-radius: 15px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 24px;
+      animation: fadeIn 2s ease-in-out;
+      color: #4b0082;
+    }
+
+    button {
+      padding: 12px 25px;
+      font-size: 18px;
+      background-color: #a855f7;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    button:hover {
+      background-color: #9333ea;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+   </style>
+</head>
+<body>
+  <h1>Letter ko My Love</h1>
+  <button onclick="showLetter()">I love you.</button>
+  <div id="letter">
+    <h2>Dear My Pretty Boy Joshuaaa,</h2>
+    <p>
+      Happy 4th month my love, I just wanted to let you know how much I appreciate you for doing things for us. I know we've been through a lot these days, specifically this month. But I just wanted to say thank you for understanding and bearing with me. I know hindi rin madali sayo kasi may sarili kang problems and stuffs, but you still manage to give us time with each other, treat me some foodies, cook me lunch kahit na galing ka sa work kahapon and needed some rest. Thank you so much bubba and please know na I acknowledge and appreciate every gestures so much. I'm sorry at times na sobrang emotional ko and some of my wrong doings tulad ng telling you something I really don't mean when I'm hurting, I do love you bubba, a lot. I'm so sorry for that. Also sorry baby at times na hindi ako agad nagsasabi and wait for the time na sumabog pa 'ko hahahaha, I know its wrong pero I just don't want to be a burden sayo lalo na when you're from work. Syempre gusto kong magpahinga ka na lang. And so so so so sorry love kasi wala akong work ngayon huhuhu. 'Di ko alam pano ako babawi pero please bear with me, I just need to pass this DE at magwowork na ulit ako, so sorry and thank you for shouldering lahat lahat when we're together. Na-sstress ako minsan kapag andami na'tin gastos kasi alam ko marami ka pa expenses bebu huhu kaya minsan if isi-singit mo pa 'ko sa time mo I'll just say na we can see each other tomorrow naman kahit gusto kita makita na so much. Overall bebu I just wanted to thank you for understanding our situation right now and still staying with me kahit na ganto situation, I love you so so so so much my pretty boy. I will always be thankful for you. Thank you for being you.</p>
+    <p>With all my heart your lover,</p>
+    <p><strong>Lexzieme</strong></p>
+  </div>
+
+  <script>
+    function showLetter() {
+      const letter = document.getElementById('letter');
+      letter.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
